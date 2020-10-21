@@ -1,0 +1,104 @@
+body {
+
+	background: rgb(40, 40, 40);
+	color: rgb(255, 255, 255);
+
+	font-family: Courier, monospace;
+	font-size: 15px;
+	letter-spacing: 0px;
+}
+
+h1, h2 {
+	 font-family: Helvetica;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+.intro h1{
+	text-align: center;
+}
+.intro img{
+}
+.intro p{
+	text-align: center;
+}
+.intro a:hover {
+	color: red;
+}
+.intro a{
+	text-align: center;
+}
+.intro {
+	border:2px solid white;
+}
+.intro{
+	width: 700px;
+	margin: 40px auto;
+}
+.intro{
+	background-color: black;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+@media (max-width: 500px) {
+	.intro{
+		width: 400px;
+	}
+}
+}
+@media (max-width: 760px) {
+	.intro{
+		width: 600px;
+	}
+}
+.contact a:hover{
+	color: red;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.img-bordered{
+	border: 5px solid white;
+}
+.hobbies {
+	border: 1px solid white;
+}
+.hobbies {
+
+	text-align: center;
+}
+.hobbies {
+	width: 700px;
+	margin: 40px auto;
+}
+.hobbies {
+	background-color: black;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+}
+@media (max-width: 500px) {
+	.hobbies{
+		width: 400px;
+	}
+}
+}
+@media (max-width: 760px) {
+	.hobbies{
+		width: 600px;
+	}
+}
+.chocolatine{
+	text-decoration: none;
+	color: white;
+}
+.chocolatine a:hover{
+	color: red;
+}
